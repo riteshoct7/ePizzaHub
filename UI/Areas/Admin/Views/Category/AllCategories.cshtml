@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Entities.Category>
+
+@{
+    ViewData["Title"] = "AllCategories";
+}
+
+<h1>All Categories</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Add Category</a>
+    
+</p>
+<table class="table">
+    <thead>
+        <tr>            
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.CategoryId }, new { @class = "btn btn-primary" })                 
+                @Html.ActionLink("Delete", "Delete", new { id = item.CategoryId }, new { @class = "btn btn-danger" , onclick = "return confirm('Are Your Sure To Delete it?')" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

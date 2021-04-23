@@ -1,0 +1,87 @@
+16-04-2021 01:23:36	This log contains information about the import schema operation into project 'Database' on computer 'TBLSYS081' by user 'Riteshp'.
+16-04-2021 01:23:36	Import of database schema has started.
+16-04-2021 01:23:45	Gathering database credentials
+16-04-2021 01:23:45	Gathering database options
+16-04-2021 01:23:45	Gathering generic database scoped configuration option
+16-04-2021 01:23:45	Gathering users
+16-04-2021 01:23:45	Gathering roles
+16-04-2021 01:23:45	Gathering application roles
+16-04-2021 01:23:45	Gathering role memberships
+16-04-2021 01:23:45	Gathering filegroups
+16-04-2021 01:23:45	Gathering full-text catalogs
+16-04-2021 01:23:45	Gathering assemblies
+16-04-2021 01:23:45	Gathering certificates
+16-04-2021 01:23:45	Gathering asymmetric keys
+16-04-2021 01:23:45	Gathering symmetric keys
+16-04-2021 01:23:45	Gathering encrypted symmetric keys
+16-04-2021 01:23:45	Gathering schemas
+16-04-2021 01:23:45	Gathering XML schema collections
+16-04-2021 01:23:45	Gathering user-defined data types
+16-04-2021 01:23:45	Gathering user-defined types
+16-04-2021 01:23:45	Gathering table types
+16-04-2021 01:23:45	Gathering unique keys for table types
+16-04-2021 01:23:45	Gathering primary keys for table types
+16-04-2021 01:23:45	Gathering indexes for table types
+16-04-2021 01:23:46	Gathering check constraints for table types
+16-04-2021 01:23:46	Gathering default constraints for table types
+16-04-2021 01:23:46	Gathering partition functions
+16-04-2021 01:23:46	Gathering partition schemes
+16-04-2021 01:23:46	Gathering functions
+16-04-2021 01:23:46	Gathering encrypted functions
+16-04-2021 01:23:46	Gathering aggregates
+16-04-2021 01:23:46	Gathering procedures
+16-04-2021 01:23:46	Gathering encrypted procedures
+16-04-2021 01:23:46	Gathering tables
+16-04-2021 01:23:46	Gathering primary keys
+16-04-2021 01:23:46	Gathering unique constraints
+16-04-2021 01:23:46	Gathering foreign keys
+16-04-2021 01:23:46	Gathering default constraints
+16-04-2021 01:23:46	Gathering check constraints
+16-04-2021 01:23:46	Gathering views
+16-04-2021 01:23:46	Gathering encrypted views
+16-04-2021 01:23:46	Gathering indexes
+16-04-2021 01:23:46	Gathering statistics
+16-04-2021 01:23:46	Gathering full-text index stoplists
+16-04-2021 01:23:46	Gathering search property lists
+16-04-2021 01:23:46	Gathering search properties
+16-04-2021 01:23:46	Gathering full-text indexes
+16-04-2021 01:23:46	Gathering column store indexes
+16-04-2021 01:23:46	Gathering spatial indexes
+16-04-2021 01:23:46	Gathering XML indexes
+16-04-2021 01:23:46	Gathering Selective XML indexes
+16-04-2021 01:23:46	Gathering encrypted triggers
+16-04-2021 01:23:46	Gathering triggers
+16-04-2021 01:23:46	Gathering encrypted and clr ddl triggers
+16-04-2021 01:23:46	Gathering ddl triggers
+16-04-2021 01:23:46	Creating edge constraints
+16-04-2021 01:23:46	Gathering synonyms
+16-04-2021 01:23:46	Gathering defaults
+16-04-2021 01:23:46	Gathering data constraint uddt bindings
+16-04-2021 01:23:46	Gathering rules
+16-04-2021 01:23:46	Gathering data constraint uddt bindings
+16-04-2021 01:23:46	Gathering message types
+16-04-2021 01:23:46	Gathering queues
+16-04-2021 01:23:46	Gathering contracts
+16-04-2021 01:23:46	Gathering services
+16-04-2021 01:23:46	Gathering event notifications
+16-04-2021 01:23:46	Gathering remote service bindings
+16-04-2021 01:23:46	Gathering broker priorities
+16-04-2021 01:23:46	Gathering signatures
+16-04-2021 01:23:46	Gathering data compression options
+16-04-2021 01:23:46	Gathering sequence types
+16-04-2021 01:23:46	Gathering security policies
+16-04-2021 01:23:46	Gather column encryption keys
+16-04-2021 01:23:46	Gathering column master keys
+16-04-2021 01:23:46	Gathering external data sources
+16-04-2021 01:23:46	Gathering external file formats
+16-04-2021 01:23:46	Gathering external tables
+16-04-2021 01:23:46	Gathering database permissions
+16-04-2021 01:23:46	Gathering extended properties
+16-04-2021 01:23:46	Gathering credentials
+16-04-2021 01:23:46	Gathering logins
+16-04-2021 01:23:46	Gathering server audits
+16-04-2021 01:23:47	Scanning project for duplicate elements
+16-04-2021 01:23:47	Finished duplicate element processing
+16-04-2021 01:23:49	Finished importing database.
+16-04-2021 01:23:49	A summary of the import was saved to the following location: D:\Ritesh\DailyCrud\Database\Import Schema Logs\Database_20210415075336.log
+16-04-2021 01:23:49	Click Finish to continue...

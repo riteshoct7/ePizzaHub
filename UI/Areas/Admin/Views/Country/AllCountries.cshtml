@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Entities.Country>
+
+@{
+    ViewData["Title"] = "AllCountries";
+}
+
+<h1>Countries</h1>
+
+<p>    
+    <a asp-action="Create" class="btn btn-primary">Add Country</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>            
+            <th>
+                @Html.DisplayNameFor(model => model.CountryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ISDCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>            
+            <td>
+                @Html.DisplayFor(modelItem => item.CountryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ISDCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.CountryId }) 
+                @Html.ActionLink("Delete", "Delete", new { id=item.CountryId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
